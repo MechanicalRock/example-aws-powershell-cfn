@@ -1,0 +1,1 @@
+Remove-CFNStack -StackName "powershell-param" -Region 'ap-southeast-2'
