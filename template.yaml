@@ -1,0 +1,11 @@
+Parameters:
+  Param1:
+    Type: String
+  Param2:
+    Type: String
+Resources:
+    MySNSTopic:
+      Type: AWS::SNS::Topic
+Outputs:
+  Greeting:
+    Value: !Sub "${Param1} ${Param2}"
